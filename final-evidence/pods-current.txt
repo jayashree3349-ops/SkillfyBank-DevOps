@@ -1,0 +1,19 @@
+NAMESPACE      NAME                                   READY   STATUS    RESTARTS      AGE     IP             NODE           NOMINATED NODE   READINESS GATES
+default        account-service-85c646bf69-9m272       2/2     Running   4 (11h ago)   24h     10.244.0.8     minikube       <none>           <none>
+default        notification-service-fb57789d4-g74mp   2/2     Running   0             7h46m   10.244.0.16    minikube       <none>           <none>
+default        notification-v2-64f976c7b7-c8wdn       2/2     Running   0             8h      10.244.0.14    minikube       <none>           <none>
+default        transaction-service-d769b4c8f-tz9l6    2/2     Running   2 (11h ago)   12h     10.244.0.10    minikube       <none>           <none>
+default        transaction-v1-7fb5b79555-jk265        2/2     Running   2 (11h ago)   12h     10.244.0.6     minikube       <none>           <none>
+istio-system   istiod-796659c5f8-nklzv                1/1     Running   0             9h      10.244.0.12    minikube       <none>           <none>
+istio-system   jaeger-5dfd7d46f6-wk2b2                1/1     Running   1 (11h ago)   12h     10.244.0.4     minikube       <none>           <none>
+kube-system    coredns-559f6c778d-sxnhg               1/1     Running   2 (11h ago)   27h     10.244.0.3     minikube       <none>           <none>
+kube-system    etcd-minikube                          1/1     Running   2 (11h ago)   27h     192.168.49.2   minikube       <none>           <none>
+kube-system    kindnet-dkz5f                          1/1     Running   0             19m     192.168.49.3   minikube-m02   <none>           <none>
+kube-system    kindnet-jbdb7                          1/1     Running   2 (11h ago)   27h     192.168.49.2   minikube       <none>           <none>
+kube-system    kube-apiserver-minikube                1/1     Running   2 (11h ago)   27h     192.168.49.2   minikube       <none>           <none>
+kube-system    kube-controller-manager-minikube       1/1     Running   2 (11h ago)   27h     192.168.49.2   minikube       <none>           <none>
+kube-system    kube-proxy-gck8l                       1/1     Running   2 (11h ago)   27h     192.168.49.2   minikube       <none>           <none>
+kube-system    kube-proxy-gdv6v                       1/1     Running   0             19m     192.168.49.3   minikube-m02   <none>           <none>
+kube-system    kube-scheduler-minikube                1/1     Running   2 (11h ago)   27h     192.168.49.2   minikube       <none>           <none>
+kube-system    metrics-server-768f9f6999-q62bp        1/1     Running   4 (11h ago)   27h     10.244.0.2     minikube       <none>           <none>
+kube-system    storage-provisioner                    1/1     Running   4 (11h ago)   27h     192.168.49.2   minikube       <none>           <none>

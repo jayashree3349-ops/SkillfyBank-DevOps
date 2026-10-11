@@ -1,0 +1,1 @@
+Image=jayashree0009/skillfybank-transaction:v2 UpdateConfig={"Parallelism":1,"FailureAction":"pause","Monitor":5000000000,"MaxFailureRatio":0,"Order":"start-first"}

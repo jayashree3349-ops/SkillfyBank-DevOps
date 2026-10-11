@@ -1,0 +1,3 @@
+skillfybank_account-service [{"Protocol":"tcp","TargetPort":3000,"PublishedPort":3000,"PublishMode":"ingress"}]
+skillfybank_notification-service [{"Protocol":"tcp","TargetPort":5000,"PublishedPort":5000,"PublishMode":"ingress"}]
+skillfybank_transaction-service null

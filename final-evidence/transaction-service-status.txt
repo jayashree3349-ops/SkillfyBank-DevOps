@@ -1,0 +1,4 @@
+ID             NAME                                    IMAGE                                      NODE              DESIRED STATE   CURRENT STATE             ERROR     PORTS
+pqrgkge0ddcr   skillfybank_transaction-service.1       jayashree0009/skillfybank-transaction:v2   swarm-manager-4   Running         Running 11 minutes ago              
+gfbvtncj9i3a    \_ skillfybank_transaction-service.1   jayashree0009/skillfybank-transaction:v1   swarm-worker-1    Shutdown        Shutdown 11 minutes ago             
+hkbkykmjeqo3    \_ skillfybank_transaction-service.1   jayashree0009/skillfybank-transaction:v2   swarm-manager-4   Shutdown        Shutdown 12 minutes ago             

@@ -1,0 +1,17 @@
+health status index                                                              uuid                   pri rep docs.count docs.deleted store.size pri.store.size dataset.size
+green  open   .internal.alerts-transform.health.alerts-default-000001            A9Os1HPTQR60INGlB9qGag   1   0          0            0       249b           249b         249b
+green  open   .internal.alerts-observability.logs.alerts-default-000001          KHTd4sf_RkWsMaGQXNY-Gw   1   0          0            0       249b           249b         249b
+green  open   .internal.alerts-observability.uptime.alerts-default-000001        ydIupJ6pQMumIL4OyVtkDw   1   0          0            0       249b           249b         249b
+yellow open   kubernetes-2026.10.11                                              sndZAF5ERiSWktmWL06AAQ   1   1       1202            0    327.1kb        327.1kb      327.1kb
+green  open   .internal.alerts-ml.anomaly-detection.alerts-default-000001        6bp4N7qjRrOf0E2TnEg9VQ   1   0          0            0       249b           249b         249b
+green  open   .internal.alerts-observability.slo.alerts-default-000001           28mcfWAASvqOmB0xrbsgNQ   1   0          0            0       249b           249b         249b
+yellow open   kubernetes-2026.10.10                                              xqTLG0ABT-qhp5XqGv1YRQ   1   1       3283            0    459.5kb        459.5kb      459.5kb
+green  open   .internal.alerts-default.alerts-default-000001                     gDaBQJHDQ-K5-hFZz_n1dQ   1   0          0            0       249b           249b         249b
+green  open   .internal.alerts-observability.apm.alerts-default-000001           IC-tVPahRLefN7NfFnd61w   1   0          0            0       249b           249b         249b
+green  open   .internal.alerts-observability.metrics.alerts-default-000001       sgNG4Ud3T6OhBjTZLM_grg   1   0          0            0       249b           249b         249b
+green  open   .kibana-observability-ai-assistant-conversations-000001            Wo_0KUHmTPmpvT2Wi6_QPA   1   0          0            0       249b           249b         249b
+green  open   .internal.alerts-ml.anomaly-detection-health.alerts-default-000001 os3IGxOTQCar_GqmhCjWIQ   1   0          0            0       249b           249b         249b
+green  open   .internal.alerts-observability.threshold.alerts-default-000001     U6c_QCPYRZedsldMyZUzvA   1   0          0            0       249b           249b         249b
+green  open   .internal.alerts-security.alerts-default-000001                    ZZp-JDXrSiq2LWREwPizzA   1   0          0            0       249b           249b         249b
+green  open   .kibana-observability-ai-assistant-kb-000001                       -4lkVX8TQRmLjYclPFjT0g   1   0          0            0       249b           249b         249b
+green  open   .internal.alerts-stack.alerts-default-000001                       hCdIQjaJRLKgPDCcAMTRNQ   1   0          0            0       249b           249b         249b

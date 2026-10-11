@@ -1,0 +1,3 @@
+ID                          NAME                                IMAGE                                                                                                          NODE              DESIRED STATE   CURRENT STATE             ERROR     PORTS
+u1783kxfjq084a87kuf5d6zu5   skillfybank_account-service.1       jayashree0009/skillfybank-account:v1@sha256:15c9f85369c7fae7c7d211932285d0521f37d152c886a52de92d3fe222fbbd82   swarm-worker-1    Running         Running 57 seconds ago              
+ig5lg5yqdw8z78tb9vaswl2se    \_ skillfybank_account-service.1   jayashree0009/skillfybank-account:v1@sha256:15c9f85369c7fae7c7d211932285d0521f37d152c886a52de92d3fe222fbbd82   swarm-manager-2   Shutdown        Shutdown 53 seconds ago             

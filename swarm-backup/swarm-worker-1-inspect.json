@@ -1,0 +1,211 @@
+[
+    {
+        "Id": "0e6859189d9343a5e0ce7674fa2ff6802408f6d195cfc4cc0be8b741e5b44323",
+        "Created": "2026-10-09T17:28:19.160566563Z",
+        "Path": "dockerd-entrypoint.sh",
+        "Args": [],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 1449,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-10-10T06:06:29.459955314Z",
+            "FinishedAt": "2026-10-10T05:59:55.318086515Z"
+        },
+        "Image": "sha256:0b6d18a4a222e71c88be6034926b4f6cde2fc33c2218643d03ccfddc65995470",
+        "ResolvConfPath": "/var/lib/docker/containers/0e6859189d9343a5e0ce7674fa2ff6802408f6d195cfc4cc0be8b741e5b44323/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/0e6859189d9343a5e0ce7674fa2ff6802408f6d195cfc4cc0be8b741e5b44323/hostname",
+        "HostsPath": "/var/lib/docker/containers/0e6859189d9343a5e0ce7674fa2ff6802408f6d195cfc4cc0be8b741e5b44323/hosts",
+        "LogPath": "/var/lib/docker/containers/0e6859189d9343a5e0ce7674fa2ff6802408f6d195cfc4cc0be8b741e5b44323/0e6859189d9343a5e0ce7674fa2ff6802408f6d195cfc4cc0be8b741e5b44323-json.log",
+        "Name": "/swarm-worker-1",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "unconfined",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "swarm-lab-net",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                33,
+                133
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": true,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": [
+                "label=disable"
+            ],
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": null,
+            "ReadonlyPaths": null
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "4299a2e11c6cb0e1853efcee0d563f6d185430965ca1d794b9542ada377f440c",
+                "Source": "/var/lib/docker/volumes/4299a2e11c6cb0e1853efcee0d563f6d185430965ca1d794b9542ada377f440c/_data",
+                "Destination": "/var/lib/docker",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "swarm-worker-1",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "2375/tcp": {},
+                "2376/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "DOCKER_VERSION=29.9.0",
+                "DOCKER_BUILDX_VERSION=0.38.0",
+                "DOCKER_COMPOSE_VERSION=5.6.0",
+                "DOCKER_TLS_CERTDIR=/certs",
+                "DIND_COMMIT=8d9e3502aba39127e4d12196dae16d306f76993d"
+            ],
+            "Cmd": null,
+            "Image": "docker:29-dind",
+            "Volumes": {
+                "/var/lib/docker": {}
+            },
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "dockerd-entrypoint.sh"
+            ],
+            "Labels": {}
+        },
+        "NetworkSettings": {
+            "SandboxID": "81f5e3910a69599064b332dbb06dca5ce4713d80b215d9de99089b87f729b526",
+            "SandboxKey": "/var/run/docker/netns/81f5e3910a69",
+            "Ports": {
+                "2375/tcp": null,
+                "2376/tcp": null
+            },
+            "Networks": {
+                "swarm-lab-net": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "5d0b9e1824a4b605fc313d35b1ee1598bf010a2e4a8c929770066bd49ed9521a",
+                    "EndpointID": "bfe5609a9caa9f8422465c536a63bcdfd412ce3dc917322df31d341829bae4d0",
+                    "Gateway": "172.30.0.1",
+                    "IPAddress": "172.30.0.4",
+                    "MacAddress": "32:d6:4b:fd:8d:76",
+                    "IPPrefixLen": 24,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "swarm-worker-1",
+                        "0e6859189d93"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:4c42359ca23de31b73b7a58396a9ca1f3b9c8e0ffbb309f34c3b14c12d889d69",
+            "size": 4004,
+            "annotations": {
+                "com.docker.official-images.bashbrew.arch": "amd64",
+                "org.opencontainers.image.base.digest": "sha256:4caa52207e95c68c3087006eefb3a5f6ca48ad1c0ba3aa3e6843549a0720b7bb",
+                "org.opencontainers.image.base.name": "docker:29-cli",
+                "org.opencontainers.image.created": "2026-10-09T01:10:20Z",
+                "org.opencontainers.image.revision": "60a6918b24ba2972a786f595e19755b7effcad15",
+                "org.opencontainers.image.source": "https://github.com/docker-library/docker.git#60a6918b24ba2972a786f595e19755b7effcad15:29/dind",
+                "org.opencontainers.image.url": "https://hub.docker.com/_/docker",
+                "org.opencontainers.image.version": "29.9.0-dind"
+            },
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

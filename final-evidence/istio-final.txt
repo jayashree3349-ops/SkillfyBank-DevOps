@@ -1,0 +1,11 @@
+NAMESPACE   NAME                                                      GATEWAYS   HOSTS                      AGE
+default     virtualservice.networking.istio.io/notification-routing              ["notification-service"]   12h
+default     virtualservice.networking.istio.io/transaction-routing               ["transaction-service"]    12h
+
+NAMESPACE   NAME                                                           HOST                                             AGE
+default     destinationrule.networking.istio.io/notification-destination   notification-service.default.svc.cluster.local   12h
+default     destinationrule.networking.istio.io/transaction-destination    transaction-service.default.svc.cluster.local    12h
+default     destinationrule.networking.istio.io/transaction-resilience     transaction-service.default.svc.cluster.local    12h
+
+NAMESPACE   NAME                                           MODE     AGE
+default     peerauthentication.security.istio.io/default   STRICT   24h

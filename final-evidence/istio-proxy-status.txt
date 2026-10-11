@@ -1,0 +1,6 @@
+NAME                                             CLUSTER        ISTIOD                      VERSION     SUBSCRIBED TYPES
+account-service-85c646bf69-9m272.default         Kubernetes     istiod-796659c5f8-nklzv     1.31.1      4 (CDS,LDS,EDS,RDS)
+notification-service-fb57789d4-g74mp.default     Kubernetes     istiod-796659c5f8-nklzv     1.31.1      4 (CDS,LDS,EDS,RDS)
+notification-v2-64f976c7b7-c8wdn.default         Kubernetes     istiod-796659c5f8-nklzv     1.31.1      4 (CDS,LDS,EDS,RDS)
+transaction-service-d769b4c8f-tz9l6.default      Kubernetes     istiod-796659c5f8-nklzv     1.31.1      4 (CDS,LDS,EDS,RDS)
+transaction-v1-7fb5b79555-jk265.default          Kubernetes     istiod-796659c5f8-nklzv     1.31.1      4 (CDS,LDS,EDS,RDS)

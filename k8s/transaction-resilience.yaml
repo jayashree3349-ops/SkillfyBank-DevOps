@@ -1,0 +1,19 @@
+apiVersion: networking.istio.io/v1
+kind: DestinationRule
+metadata:
+  name: transaction-resilience
+  namespace: default
+spec:
+  host: transaction-service.default.svc.cluster.local
+  trafficPolicy:
+    connectionPool:
+      tcp:
+        maxConnections: 10
+      http:
+        http1MaxPendingRequests: 10
+        maxRequestsPerConnection: 5
+    outlierDetection:
+      consecutive5xxErrors: 5
+      interval: 10s
+      baseEjectionTime: 30s
+      maxEjectionPercent: 50

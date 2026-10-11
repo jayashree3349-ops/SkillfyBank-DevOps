@@ -1,0 +1,19 @@
+NAME                                   READY   UP-TO-DATE   AVAILABLE   AGE     CONTAINERS             IMAGES                                      SELECTOR
+deployment.apps/account-service        1/1     1            1           20h     account-service        skillfybank-account:v1                      app=account-service
+deployment.apps/notification-service   1/1     1            1           19h     notification-service   skillfybank-notification:v1                 app=notification-service
+deployment.apps/notification-v2        1/1     1            1           4h48m   notification-service   jayashree0009/skillfybank-notification:v2   app=notification-service,version=v2
+deployment.apps/transaction-service    1/1     1            1           19h     transaction-service    skillfybank-transaction:v2                  app=transaction-service
+deployment.apps/transaction-v1         1/1     1            1           16h     transaction-service    skillfybank-transaction:v1                  app=transaction-service,version=v1
+
+NAME                                       READY   STATUS    RESTARTS        AGE     IP            NODE       NOMINATED NODE   READINESS GATES
+pod/account-service-85c646bf69-9m272       2/2     Running   4 (4h22m ago)   16h     10.244.0.8    minikube   <none>           <none>
+pod/notification-service-fb57789d4-g74mp   2/2     Running   0               15m     10.244.0.16   minikube   <none>           <none>
+pod/notification-v2-64f976c7b7-c8wdn       2/2     Running   0               62m     10.244.0.14   minikube   <none>           <none>
+pod/transaction-service-d769b4c8f-tz9l6    2/2     Running   2 (4h22m ago)   5h1m    10.244.0.10   minikube   <none>           <none>
+pod/transaction-v1-7fb5b79555-jk265        2/2     Running   2 (4h22m ago)   4h54m   10.244.0.6    minikube   <none>           <none>
+
+NAME                           TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE   SELECTOR
+service/account-service        NodePort       10.103.79.235   <none>        3000:30080/TCP   20h   app=account-service
+service/kubernetes             ClusterIP      10.96.0.1       <none>        443/TCP          20h   <none>
+service/notification-service   LoadBalancer   10.99.84.173    <pending>     5000:32499/TCP   19h   app=notification-service
+service/transaction-service    ClusterIP      10.99.108.246   <none>        8081/TCP         19h   app=transaction-service

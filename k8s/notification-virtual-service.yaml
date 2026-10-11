@@ -1,0 +1,27 @@
+apiVersion: networking.istio.io/v1
+kind: VirtualService
+metadata:
+  name: notification-routing
+  namespace: default
+spec:
+  hosts:
+    - notification-service
+  http:
+    - match:
+        - headers:
+            x-user-group:
+              exact: beta
+      route:
+        - destination:
+            host: notification-service
+            subset: v2
+          weight: 100
+    - route:
+        - destination:
+            host: notification-service
+            subset: v1
+          weight: 90
+        - destination:
+            host: notification-service
+            subset: v2
+          weight: 10

@@ -1,0 +1,4 @@
+ID             NAME                               MODE         REPLICAS   IMAGE                                       PORTS
+2xsori80f3g8   skillfybank_account-service        replicated   1/1        jayashree0009/skillfybank-account:v1        *:3000->3000/tcp
+93rs8d7t8wtg   skillfybank_notification-service   replicated   1/1        jayashree0009/skillfybank-notification:v1   *:5000->5000/tcp
+wnpblfzttuiy   skillfybank_transaction-service    replicated   1/1        jayashree0009/skillfybank-transaction:v2    

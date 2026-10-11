@@ -1,0 +1,2 @@
+NAME      DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE
+fluentd   1         1         1       1            1           <none>          13h

@@ -1,0 +1,2 @@
+ID             NAME                                 IMAGE                                       NODE              DESIRED STATE   CURRENT STATE            ERROR     PORTS
+vig6a6esh1jj   skillfybank_notification-service.1   jayashree0009/skillfybank-notification:v1   swarm-manager-3   Running         Running 16 minutes ago             

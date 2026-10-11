@@ -1,0 +1,8 @@
+NAME                  READY   STATUS    RESTARTS   AGE
+pod/elasticsearch-0   1/1     Running   0          62s
+
+NAME                    TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
+service/elasticsearch   ClusterIP   10.100.176.20   <none>        9200/TCP   3m48s
+
+NAME                                         STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+persistentvolumeclaim/data-elasticsearch-0   Bound    pvc-21a929f5-7d30-43fa-a1e6-f820c218db3b   5Gi        RWO            standard       <unset>                 4m47s

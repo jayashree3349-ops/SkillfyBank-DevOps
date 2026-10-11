@@ -1,0 +1,5 @@
+NAME                                                        CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS   CLAIM                 STORAGECLASS   VOLUMEATTRIBUTESCLASS   REASON   AGE
+persistentvolume/pvc-5a29af8f-993b-4e8c-a748-3c171495346d   1Gi        RWO            Delete           Bound    default/account-pvc   standard       <unset>                          19h
+
+NAME                                STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+persistentvolumeclaim/account-pvc   Bound    pvc-5a29af8f-993b-4e8c-a748-3c171495346d   1Gi        RWO            standard       <unset>                 19h

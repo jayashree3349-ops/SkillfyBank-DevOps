@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+*.pem
+kubeconfig
+secrets*.yaml
+EOFcat > .gitignore <<'EOF'
+.env
+.env.*
+!.env.example
+*.pem
+kubeconfig
+secrets*.yaml

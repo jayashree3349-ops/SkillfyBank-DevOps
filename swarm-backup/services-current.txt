@@ -1,0 +1,17 @@
+ID             NAME                               MODE         REPLICAS   IMAGE                                       PORTS
+2xsori80f3g8   skillfybank_account-service        replicated   1/1        jayashree0009/skillfybank-account:v1        *:3000->3000/tcp
+93rs8d7t8wtg   skillfybank_notification-service   replicated   1/1        jayashree0009/skillfybank-notification:v1   *:5000->5000/tcp
+wnpblfzttuiy   skillfybank_transaction-service    replicated   1/1        jayashree0009/skillfybank-transaction:v2    
+ID             NAME                                     IMAGE                                             NODE              DESIRED STATE   CURRENT STATE          ERROR                              PORTS
+7xggh5m1ncfu   skillfybank_account-service.1            jayashree0009/skillfybank-account:v1              ip-172-31-34-10   Running         Running 8 hours ago                                       
+jca6cbwmm4b5    \_ skillfybank_account-service.1        jayashree0009/skillfybank-account:v1              ip-172-31-34-10   Shutdown        Failed 8 hours ago     "No such container: skillfyban…"   
+q4o2fd41sziw    \_ skillfybank_account-service.1        jayashree0009/skillfybank-account:v1              ip-172-31-34-10   Shutdown        Failed 9 hours ago     "No such container: skillfyban…"   
+vhxpwfkpezhd   skillfybank_notification-service.1       jayashree0009/skillfybank-notification:v1         ip-172-31-34-10   Running         Running 8 hours ago                                       
+q5kk4lui71o3    \_ skillfybank_notification-service.1   jayashree0009/skillfybank-notification:v1         ip-172-31-34-10   Shutdown        Failed 8 hours ago     "No such container: skillfyban…"   
+xrpxhwr3il2e    \_ skillfybank_notification-service.1   jayashree0009/skillfybank-notification:v1         ip-172-31-34-10   Shutdown        Failed 9 hours ago     "No such container: skillfyban…"   
+1d5ei9yypr9w    \_ skillfybank_notification-service.1   jayashree0009/skillfybank-notification:v1         ip-172-31-34-10   Shutdown        Shutdown 9 hours ago                                      
+whtqdhqe40y9   skillfybank_transaction-service.1        jayashree0009/skillfybank-transaction:v2          ip-172-31-34-10   Running         Running 8 hours ago                                       
+1y3nt3uyolm3    \_ skillfybank_transaction-service.1    jayashree0009/skillfybank-transaction:v2          ip-172-31-34-10   Shutdown        Failed 8 hours ago     "No such container: skillfyban…"   
+dwz4mw0x4ccj    \_ skillfybank_transaction-service.1    jayashree0009/skillfybank-transaction:v2          ip-172-31-34-10   Shutdown        Failed 9 hours ago     "No such container: skillfyban…"   
+w70ydht1s9xi    \_ skillfybank_transaction-service.1    jayashree0009/skillfybank-transaction:v1          ip-172-31-34-10   Shutdown        Shutdown 9 hours ago                                      
+bujdywscftox    \_ skillfybank_transaction-service.1    jayashree0009/skillfybank-transaction:v1-update   ip-172-31-34-10   Shutdown        Shutdown 9 hours ago                                      

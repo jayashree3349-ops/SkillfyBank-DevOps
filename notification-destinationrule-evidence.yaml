@@ -1,0 +1,23 @@
+apiVersion: networking.istio.io/v1
+kind: DestinationRule
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"networking.istio.io/v1","kind":"DestinationRule","metadata":{"annotations":{},"name":"notification-destination","namespace":"default"},"spec":{"host":"notification-service.default.svc.cluster.local","subsets":[{"labels":{"app":"notification-service","version":"latest"},"name":"v1"},{"labels":{"app":"notification-service","version":"v2"},"name":"v2"}]}}
+  creationTimestamp: "2026-10-10T05:45:30Z"
+  generation: 1
+  name: notification-destination
+  namespace: default
+  resourceVersion: "18292"
+  uid: 245bff34-a8ea-417a-8166-6c4418266a7d
+spec:
+  host: notification-service.default.svc.cluster.local
+  subsets:
+  - labels:
+      app: notification-service
+      version: latest
+    name: v1
+  - labels:
+      app: notification-service
+      version: v2
+    name: v2

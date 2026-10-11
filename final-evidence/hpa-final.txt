@@ -1,0 +1,4 @@
+NAMESPACE      NAME                   REFERENCE                         TARGETS       MINPODS   MAXPODS   REPLICAS   AGE
+default        transaction-service    Deployment/transaction-service    cpu: 1%/50%   1         3         1          42h
+istio-system   istio-ingressgateway   Deployment/istio-ingressgateway   cpu: 2%/80%   1         5         1          40h
+istio-system   istiod                 Deployment/istiod                 cpu: 2%/80%   1         5         1          40h

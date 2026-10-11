@@ -1,0 +1,6 @@
+ID                            HOSTNAME          STATUS    AVAILABILITY   MANAGER STATUS   ENGINE VERSION
+rmpkasy4fjusb8q8sgbuypstz *   swarm-manager-2   Ready     Active         Leader           29.9.0
+mepj2ajwiqfw6dmmh0yrss4sw     swarm-manager-3   Ready     Active         Reachable        29.9.0
+thiqup3sbs3o3t4mpb24vxhsm     swarm-manager-4   Ready     Active         Reachable        29.9.0
+z4ikjo2kglh6jnx1018so6j94     swarm-worker-1    Ready     Active                          29.9.0
+x5h2bcmrow9fny3zueac983q5     swarm-worker-2    Ready     Active                          29.9.0
